@@ -1,0 +1,6 @@
+name: decoupled-bridge-drupal-demo
+recipe: pantheon
+config:
+  framework: drupal8
+  site: decoupled-bridge-drupal-demo
+  id: a4e054fe-e155-4349-b241-f013f036d93f
