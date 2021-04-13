@@ -32,3 +32,6 @@ $local_settings = __DIR__ . "/settings.local.php";
 if (file_exists($local_settings)) {
   include $local_settings;
 }
+
+// Hacky need due to Lack of DB support at panthron for Maria 10.3
+$databases['default']['default']['namespace'] = 'Drupal\\Driver\\Database\\mysql';
